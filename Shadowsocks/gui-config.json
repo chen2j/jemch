@@ -64,8 +64,8 @@
 "remarks" : ""}
 
 ],
-"strategy" : null,
-"index" : 8,
+"strategy" : "com.shadowsocks.strategy.ha",
+"index" : -1,
 "global" : false,
 "enabled" : true,
 "shareOverLan" : false,
