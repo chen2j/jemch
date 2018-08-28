@@ -1,0 +1,23 @@
+CACHE MANIFEST
+#version1 - https://blog.csdn.net/u013084331/article/details/51133052
+CACHE:
+index.html
+css/bootstrap.min.css
+css/templatemo-style.css
+images/1.jpg
+images/2.jpg
+images/3.jpg
+images/4.jpg
+images/5.png
+images/back.jpg
+fonts/glyphicons-halflings-regular.eot
+fonts/glyphicons-halflings-regular.svg
+fonts/glyphicons-halflings-regular.ttf
+fonts/glyphicons-halflings-regular.woff
+fonts/glyphicons-halflings-regular.woff2
+ 
+FALLBACK:
+online.js local.js
+ 
+NETWORK:
+*
