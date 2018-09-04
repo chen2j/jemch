@@ -15,6 +15,22 @@
 　　top.location.href = window.location.href; // 如果不是，将top对象的网址自动导向被嵌入网页的网址  
 </script> 
 !--禁用网页中的iframe广告-->
+
+var ele;
+if (/\.css[^\.]*$/.test(asset.url)) {
+    ele = doc.createElement("link");
+    ele.type = "text/" + (asset.type || "css");
+    ele.rel = "stylesheet";
+    ele.href = asset.url
+}
+else {
+    ele = doc.createElement("script");
+    ele.type = "text/" + (asset.type || "javascript");
+    ele.src = asset.url
+}
+
+
+
 <body>
     <div class="fixed-header">
         <div class="container">
