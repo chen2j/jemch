@@ -173,6 +173,20 @@
  <script src="js/bootstrap.min.js"></script>
  <script src="js/jquery.singlePageNav.min.js"></script> 
 	
+	
+    <script>
+        var a = document.getElementsByTagName('a');
+        for(var i = 0; i < a.length; i++) {
+            if(a[i].getAttribute("class") == 'wrapper-item active') {
+                a[i].style.display="none";
+                //或是  a[i].remove();
+            }
+        }
+    </script>	
+	
+	
+	
+	
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125329198-1"></script>
 <script>
