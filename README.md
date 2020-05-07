@@ -1,2 +1,2 @@
-Jemch.com is a website that
+Jemch.com is a website
 =====
